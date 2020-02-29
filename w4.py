@@ -27,11 +27,12 @@ class Siswa:
             print ("nilai", self.nama, "mencapai kkm, belajar lebih giat lagi")
         else :
             print ("nilai", self.nama, "diatas kkm, jangan mudah puas")
-            
-listSiswa = []
-listSiswa.append(Siswa("Sarah",90,78,80))
-listSiswa.append(Siswa("Budi",75,70,80))
-listSiswa.append(Siswa("citra",66,56,80))
+   
+for i in range (3):         
+    listSiswa = []
+    listSiswa.append(Siswa("Sarah",90,78,80))
+    listSiswa.append(Siswa("Budi",75,70,80))
+    listSiswa.append(Siswa("citra",66,56,80))
 
 for siswa in listSiswa:
     siswa.tampilkan_profil()
